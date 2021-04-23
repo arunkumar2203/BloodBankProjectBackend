@@ -28,7 +28,7 @@ import com.bloodbank.service.AcceptorServices;
 public class AcceptorController {
 
 	@Autowired
-	private AcceptorServices acceptorServices;
+	private AcceptorServices acceptorServices; // This is dependency indejection
 	
 	@PostMapping("/addAcceptor")
 	public String addEmployee(@RequestBody Acceptor acceptor) {
