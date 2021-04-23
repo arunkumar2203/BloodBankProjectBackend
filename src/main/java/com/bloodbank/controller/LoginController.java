@@ -61,6 +61,7 @@ public class LoginController {
 	private StorageService storageService;
 	
 	String TOPIC_ARN="arn:aws:sns:eu-west-1:869735547192:bloodbank-topic"; //arn:aws:sns:eu-west-1::bloodbank-topic
+	
 	 
 
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)

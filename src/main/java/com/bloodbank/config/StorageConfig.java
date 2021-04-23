@@ -13,8 +13,8 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
 @Configuration
 public class StorageConfig {
-	public static final String SECRET_KEY = "2sVDGZBfei00zK9/WCB7bozIlruDMYpSrrf9dF0d";
-    public static final String ACCESS_KEY = "AKIA4VACHIE4DCVOQRNT";
+	public static final String SECRET_KEY = "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";
+    public static final String ACCESS_KEY = "AKIA4VACHIE4O76DUFV3";
     
 
     @Bean
